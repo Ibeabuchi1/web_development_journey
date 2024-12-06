@@ -1,0 +1,25 @@
+body {
+  background-color: #393e46;
+  font-family: Arial, Helvetica, cursive;
+  color: #4ecca3;
+  padding: 20px;
+  margin: 0;
+}
+.game-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0 0.2);
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.dice-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.dice {
+  margin: 0px 20px;
+}
