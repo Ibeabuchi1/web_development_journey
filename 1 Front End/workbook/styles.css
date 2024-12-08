@@ -46,6 +46,7 @@ body {
   justify-content: center;
   margin-top: 10px;
 }
+
 .filter-nav a {
   text-decoration: none;
   padding: 9px;
@@ -53,6 +54,18 @@ body {
   border-radius: 4px;
   margin: 4px;
 }
+.filter-nav .active {
+  background-color: #1a076e;
+  color: white;
+}
+.filter-nav .active:hover {
+  cursor: default;
+  background-color: #1a076e;
+}
+.filter-nav a:hover {
+  background-color: #a99beb;
+}
+
 .animals-container {
   max-width: 700px;
   margin: 10px auto;
